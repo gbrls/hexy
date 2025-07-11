@@ -1,18 +1,17 @@
 # for a description of available keys, see https://github.com/typst/packages/?tab=readme-ov-file#package-format
 
 [package]
-name = ""
+name = "hexy"
 version = "0.1.0"
-entrypoint = "src/lib.typ"
-authors = []
+entrypoint = "/hexy.typ"
+authors = ["gbrls"]
 license = "Unlicense"
-description = ""
-homepage = ""
-repository = ""
+description = "A typesetting library for hexdumps and low level reverse engineering stuff for Typst "
+homepage = "https://github.com/gbrls/hexy"
+repository = "https://github.com/gbrls/hexy"
 keywords = []
 categories = []
 disciplines = []
-# compiler = ""
 exclude = [
   ".github",
   "docs",
@@ -23,11 +22,3 @@ exclude = [
   "thumbnail-dark.svg",
   "thumbnail-light.svg",
 ]
-
-# [template]
-# path = "template"
-# entrypoint = "main.typ"
-# thumbnail = "thumbnail.png"
-
-# [tool.mytool]
-# foo = "bar"
