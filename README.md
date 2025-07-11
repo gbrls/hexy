@@ -37,7 +37,7 @@ These instructions will get you a copy of the project up and running on the typs
 ```
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./thumbnail-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./hello.svg">
   <img src="./hello.svg">
 </picture>
 
